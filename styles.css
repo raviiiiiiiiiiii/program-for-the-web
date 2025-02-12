@@ -4,11 +4,19 @@ body{
   margin-top: 50px;
 }
 button{
-  background-color: #rCAF50;
+  background-color: #4CAF50;
   color: white;
-  padding:15px: 32px;
+  padding:15px 32px;
   text-align: center;
   font-size: 16xp;
   margin: 4px 2px;
   cursor: pointer;
   }
+@media(max-width: 600px) {
+  body{
+    background-colour: lightgray;
+  }
+  button {
+    width: 100%;
+  }
+}
